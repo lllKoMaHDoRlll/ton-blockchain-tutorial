@@ -1,0 +1,21 @@
+{
+  "name": "ton-blockchain-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "ts-node ./scripts/compile.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/core": "^1.7.14",
+    "@ton-community/func-js": "^0.7.0",
+    "@ton/core": "^0.57.0",
+    "@ton/crypto": "^3.3.0",
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
