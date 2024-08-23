@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run compile && jest",
     "compile": "ts-node ./scripts/compile.ts"
   },
   "author": "",
