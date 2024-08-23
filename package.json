@@ -14,7 +14,12 @@
     "@ton-community/func-js": "^0.7.0",
     "@ton/core": "^0.57.0",
     "@ton/crypto": "^3.3.0",
+    "@ton/sandbox": "^0.20.0",
+    "@ton/ton": "^15.0.0",
+    "@types/jest": "^29.5.12",
     "@types/node": "^22.5.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
