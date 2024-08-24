@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
     "@swc/core": "^1.7.14",
     "@ton-community/func-js": "^0.7.0",
     "@ton/core": "^0.57.0",
