@@ -20,9 +20,9 @@
                 .store_slice(sender_address)
                 .end_cell()
         );
+        return();
     }
-    
-    set_data(begin_cell().store_slice(sender_address).end_cell());
+    return();
 }
 
 (int, slice) get_contract_storage_data () method_id {
