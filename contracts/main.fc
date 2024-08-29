@@ -28,12 +28,12 @@ const const::min_tons_for_storage = 10000000; ;; 0.01 TON
     slice sender_address = cs~load_msg_addr();
 
     int op = in_msg_body~load_uint(32);
-    int increment_by_value = in_msg_body~load_uint(32);
 
     var (counter_value, recent_sender, owner_address) = load_data();
 
     if (op == 1) {
         ;; increment counter
+        int increment_by_value = in_msg_body~load_uint(32);
         save_data(
             counter_value + increment_by_value,
             sender_address,
