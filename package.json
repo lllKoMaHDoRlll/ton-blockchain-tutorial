@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run compile && jest",
-    "compile": "ts-node ./scripts/compile.ts",
-    "deploy": "npm run compile && ts-node ./scripts/deploy.ts",
-    "onchaintest": "ts-node ./scripts/onchaintest.ts"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
